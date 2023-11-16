@@ -45,7 +45,12 @@ services:
       KAFKA_CLUSTERS_0_KAFKACONNECT_0_ADDRESS: http://kafka-connect:8083
   
   kafka-connect:
-    build: .    
+    build:
+      context: .
+      args:
+        STRIMZI_VERSION: 0.38.0
+        KAFKA_VERSION: 3.6.0
+
     depends_on:
       - zookeeper
       - kafka
