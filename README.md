@@ -1,6 +1,6 @@
 # Custom Kafka Connect (strimzi) Image
 
-This is a kafka connect docker image based on strimzi. This image can be used with the kafka strimzi operator.
+This is a kafka connect docker image based on [strimzi](https://strimzi.io/). This image can be used with the kafka strimzi operator.
 
 ## Getting started
 
