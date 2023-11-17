@@ -11,9 +11,13 @@ For more details see [Dockerfile](Dockerfile) or [docker-compose.yaml](docker-co
 docker compose up --build
 ```
 
-Nextx you can access the following services:
+Next you can access the following services:
 
 - http://localhost:8081 (kafka ui)
 - http://localhost:8082 (kafka connect ui)
 - localhost:9092 (kafka broker)
 - loclahost:5432 (postgres)
+
+# Build your own Kafka Connect Plugins
+
+How to build your own connect plugins see [kafka-connect-quickstart ](https://github.com/rueedlinger/kafka-connect-quickstart)
